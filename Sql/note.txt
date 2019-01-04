@@ -1,0 +1,49 @@
+布林曲线函数中的MA_Type
+http://30daydo.com/article/201
+
+数据清洗如何展开
+
+一般遇到什么情况需要清洗
+
+怎么过滤为0的数据
+
+
+pandas元素列转换类型
+https://www.cnblogs.com/xitingxie/p/8426340.html
+
+
+随机数据生成
+ numpy中产生随机数的方法
+
+　　1)rand() 　　产生[0,1]的浮点随机数,括号里面的参数可以指定产生数组的形状
+
+　　2)randn()　　产生标准正太分布随机数，参数含义与rand相同
+
+　　3)randint()　　产生指定范围的随机数，最后一个参数是元祖，他确定数组的形状
+
+Return numbers spaced evenly on a log scale.
+numpy.logspace(start, stop, num=50, endpoint=True, base=10.0, dtype=None)[source]
+
+等差数列 numpy.linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None)[source]
+arange([start,] stop[, step,], dtype=None)
+
+
+
+
+
+pandas isnull函数检查数据是否有缺失
+https://blog.csdn.net/xiaoxiaosuwy/article/details/81187694
+
+将列中为空的个数统计出来:df.isnull().sum()　
+
+
+groupby怎么和统计函数结合起来用？
+
+
+遍历语法：
+estimators = [('OLS', LinearRegression()),
+              ('Theil-Sen', TheilSenRegressor(random_state=42)),
+              ('RANSAC', RANSACRegressor(random_state=42)), ]
+for name, estimator in estimators:
+    name='OLS'
+    estimator= LinearRegression()

@@ -1,0 +1,11 @@
+sklearn自带的数据集
+5类数据：
+自带的小数据集（packaged dataset）：sklearn.datasets.load_<name>
+计算机生成的数据集（Generated Dataset）：sklearn.datasets.make_<name>
+可在线下载的数据集（Downloaded Dataset）：sklearn.datasets.fetch_<name>
+svmlight/libsvm格式的数据集:sklearn.datasets.load_svmlight_file(...)
+从买了data.org在线下载获取的数据集:sklearn.datasets.fetch_mldata(...)
+
+其中的自带的小的数据集为：sklearn.datasets.load_<name>
+参考：
+https://www.cnblogs.com/nolonely/p/6980160.html
